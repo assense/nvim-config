@@ -1,12 +1,12 @@
 # nvim-config
 Personal neovim config files (written in lua)
 ### ⚙️ Core plugins
-* Plugin manager - Lazy
-* Theme - Nightfox (carbonfox)
-* LSP integration - lspconfig + Mason
-* Autocompletion - nvimcmp
-* Navigation - mini.files, Harpoon, telescope
-* UI - tabby, lualine, noice
+* Plugin manager - [lazy.nvim](https://github.com/folke/lazy.nvim)
+* Theme - [Nightfox (Carbonfox)](https://github.com/EdenEast/nightfox.nvim?tab=readme-ov-file#carbonfox)
+* LSP integration - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) + [mason.nvim](https://github.com/williamboman/mason.nvim)
+* Autocompletion - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+* Navigation - [mini.files](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-files.md), [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+* UI - [tabby.nvim](https://github.com/nanozuki/tabby.nvim), [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim), [noice.nvim](https://github.com/folke/noice.nvim)
 
 ### 📂 File Structure
 <pre>
@@ -28,7 +28,9 @@ Personal neovim config files (written in lua)
 │
 └── init.lua
 </pre>
-### Screenshots
+### 📷 Screenshots
 ---
+
+(Other dotfiles are [here](https://github.com/assense/dotfiles))
 
 Enjoy!

@@ -31,6 +31,6 @@ Personal neovim config files (written in lua)
 ### 📷 Screenshots
 ---
 
-(Other dotfiles are [here](https://github.com/assense/dotfiles))
+(More dotfiles [here](https://github.com/assense/dotfiles))
 
 Enjoy!

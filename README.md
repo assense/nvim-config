@@ -29,6 +29,7 @@ Personal neovim config files (written in lua)
 └── init.lua
 </pre>
 ### 📷 Screenshots
+<img src="src/screenshot1.png" alt="img1" width="400"/> <img src="src/screenshot2.png" alt="img2" width="400"/> <img src="src/screenshot3.png" alt="img3" width="400"/> <img src="src/screenshot4.png" alt="img4" width="400"/>
 ---
 
 (More dotfiles [here](https://github.com/assense/dotfiles))

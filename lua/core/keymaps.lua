@@ -42,3 +42,11 @@ vim.api.nvim_set_keymap("n", "<c-l>", "<C-W>l", { noremap = true, silent = true 
 
 -- Remove yanking copy text to register
 vim.keymap.set("x", "p", '"_dP', { noremap = true })
+
+-- Tab navigation keymaps (bit cursed)
+vim.keymap.set("n", "<Tab>", ":tabnext<CR>", { silent = true })
+
+for i = 1, 9 do
+	vim.keymap.set("n", "g" .. i, i .. "gt", { silent = true })
+end
+vim.keymap.set("n", "g0", ":tablast<CR>", { silent = true })

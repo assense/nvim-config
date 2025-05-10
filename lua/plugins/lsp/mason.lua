@@ -34,7 +34,7 @@ return {
 					local cmp_nvim_lsp = require("cmp_nvim_lsp")
 					local capabilities = cmp_nvim_lsp.default_capabilities()
 
-					if server_name == "ruff_lsp" or server_name == "ruff" then
+					if server_name == "ruff" then
 						return
 					end
 

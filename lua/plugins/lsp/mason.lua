@@ -35,7 +35,7 @@ return {
 					local capabilities = cmp_nvim_lsp.default_capabilities()
 
 					if server_name == "ruff" then
-						return
+						return -- Disable ruff lsp enabling, keeping it linter-only mode
 					end
 
 					lspconfig[server_name].setup({
